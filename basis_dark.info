@@ -1,8 +1,7 @@
 type = theme
 name = Basis Dark
-description = The default front-end theme for Backdrop CMS, which can make a great base theme.
+description = Based on Core Basis theme, with dark mode support.
 backdrop = 1.x
-version = BACKDROP_VERSION
 
 ; Add theme CSS files
 stylesheets[all][] = css/base.css
