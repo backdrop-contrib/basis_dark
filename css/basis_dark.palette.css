@@ -1,0 +1,102 @@
+:root {
+  color-scheme: light;
+  --basis_dark-palette__grayscale--100: #ffffff;
+  --basis_dark-palette__grayscale--98: #fefefe;
+  --basis_dark-palette__grayscale--95: #f2f2f2;
+  --basis_dark-palette__grayscale--93: #eeeeee;
+  --basis_dark-palette__grayscale--92: #eaeaea;
+  --basis_dark-palette__grayscale--91: #e8e8e8;
+  --basis_dark-palette__grayscale--90: #e7e7e7;
+  --basis_dark-palette__grayscale--89: #dee2ea;
+  --basis_dark-palette__grayscale--87: #dddddd;
+  --basis_dark-palette__grayscale--84: #d5d5d5;
+  --basis_dark-palette__grayscale--82: #d0d0d0;
+  --basis_dark-palette__grayscale--80: #cccccc;
+  --basis_dark-palette__grayscale--77: #c5c5c5;
+  --basis_dark-palette__grayscale--73: #bbbbbb;
+  --basis_dark-palette__grayscale--60: #999999;
+  --basis_dark-palette__grayscale--46: #757575;
+  --basis_dark-palette__grayscale--40: #666666;
+  --basis_dark-palette__grayscale--38: #586172;
+  --basis_dark-palette__grayscale--33: #555555;
+  --basis_dark-palette__grayscale--23: #3b3b3b;
+  --basis_dark-palette__grayscale--20: #333333;
+  --basis_dark-palette__grayscale--17: #2b2b2b;
+  --basis_dark-palette__grayscale--16: #2a2a2a;
+  --basis_dark-palette__grayscale--14: #20252e;
+  --basis_dark-palette__grayscale--1: #000001;
+  --basis_dark-palette__grayscale--0: #000000;
+
+  --basis_dark-palette__header: #20252e;
+  --basis_dark-palette__body: #ffffff;
+
+  --basis_dark-palette__accent--90: #d5e9f2;
+  --basis_dark-palette__accent--80: #bdf;
+  --basis_dark-palette__accent--60: #008bcb;
+  --basis_dark-palette__accent--50: #0074bd;
+  --basis_dark-palette__accent--45: #1766ae;
+  --basis_dark-palette__accent--35: #114a75;
+
+  --basis_dark-palette__accent--secondary--30: #CFDE56;
+
+  --basis_dark-palette__danger--30: #9c1d0d;
+  --basis_dark-palette__danger--50: #e7251b;
+  --basis_dark-palette__danger--90: #ffc9c9;
+  --basis_dark-palette__danger--95: #ffe0e0;
+
+  --basis_dark-palette__warning--80: #fce400;
+  --basis_dark-palette__warning--85: #ffee77;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --basis_dark-palette__grayscale--100: #000;
+    --basis_dark-palette__grayscale--98: #080808;
+    --basis_dark-palette__grayscale--95: #20252e;
+    --basis_dark-palette__grayscale--93: #161616;
+    --basis_dark-palette__grayscale--90: #111;
+    --basis_dark-palette__grayscale--89: #363b43;
+    --basis_dark-palette__grayscale--87: #1f1f1f;
+    --basis_dark-palette__grayscale--85: #2f2f2f;
+    --basis_dark-palette__grayscale--80: #3a3a3c;
+    --basis_dark-palette__grayscale--75: #333;
+    --basis_dark-palette__grayscale--73: #555;
+    --basis_dark-palette__grayscale--65: #555;
+    --basis_dark-palette__grayscale--55: #666;
+    --basis_dark-palette__grayscale--50: #828188;
+    --basis_dark-palette__grayscale--40: #999;
+    --basis_dark-palette__grayscale--30: #bbb4ac;
+    --basis_dark-palette__grayscale--1: #efefef;
+    --basis_dark-palette__grayscale--0: #efefef;
+
+    --basis_dark-palette__header: #1a1e25;
+    --basis_dark-palette__body: #20252e;
+
+    --basis_dark-palette__accent--90: #0d1921;
+    --basis_dark-palette__accent--60: #114a75;
+    --basis_dark-palette__accent--50: #0074bd;
+    --basis_dark-palette__accent--45: #018be1;
+    --basis_dark-palette__accent--35: #009be3;
+
+    --basis_dark-palette__accent--60: #0074bd;
+    --basis_dark-palette__accent--50: #009be3;
+    --basis_dark-palette__accent--45: #22b9ff;
+    --basis_dark-palette__accent--35: #3dc2ff;
+
+    --basis_dark-palette__accent--secondary--30: #404715;
+
+    --basis_dark-palette__danger--50: #500400;
+
+    .block-hero-no-image {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/waves.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: normal;
+    }
+    .block-views-promoted-cards-block img {
+      filter: brightness(0.5);;
+    }
+
+  }
+}

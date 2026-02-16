@@ -1,0 +1,5 @@
+[Basis DarkTestCase]
+name = Basis Dark theme
+description = Test supplemental CSS update selectors in the Basis Dark theme.
+group = Theme
+file = basis_dark.test
