@@ -87,6 +87,7 @@
     --basis_dark-palette__accent--secondary--30: #404715;
 
     --basis_dark-palette__danger--50: #500400;
+    --basis_dark-palette__links: #4db9ff;
 
     .block-hero-no-image {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/waves.svg);
@@ -95,8 +96,10 @@
         background-blend-mode: normal;
     }
     .block-views-promoted-cards-block img {
-      filter: brightness(0.5);;
+      filter: brightness(0.5);
     }
-
+    .dropbutton-arrow {
+        color: #000;
+    }
   }
 }

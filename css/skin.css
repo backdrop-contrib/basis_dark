@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: #0073bd;
+  color: var(--basis_dark-palette__links, #0073bd);
 }
 
 a:focus,
